@@ -80,7 +80,7 @@ public class SortTest {
         System.out.print("Insertion Sort ");
       else
         System.out.print("Quick Sort ");
-      System.out.println("["+trial+ "]: " + (stopTime - startTime));
+      System.out.println("["+testNum+","+trial+ "]: " + (stopTime - startTime));
     }
     
     // Output timing results to file
